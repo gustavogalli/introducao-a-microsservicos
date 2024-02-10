@@ -22,7 +22,7 @@ public class DemoApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		repository.saveAll(List.of(
-				new User(null, "Gustavo", "gustavo@email.com", "123456", 20.0),
+				new User(null, "Gustavo", "gustavo@email.com", "123456", 50.0),
 				new User(null, "Juliana", "juliana@email.com", "123456", 45.5)
 		));
 	}
